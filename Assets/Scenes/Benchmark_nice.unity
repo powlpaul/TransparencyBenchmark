@@ -350,7 +350,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1288011116}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0165, y: 0.0846, z: 0}
+  m_LocalPosition: {x: -0.0322, y: 0.0592, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -549,7 +549,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!64 &1761856682
 MeshCollider:
@@ -845,7 +845,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 437fa5ef2f2c3fe4493eecd7c3c7bcaf, type: 2}
+      objectReference: {fileID: 2100000, guid: 70046bf0ba8b9f64ebf8e871f3ec19bd, type: 2}
     - target: {fileID: 6519600774451968661, guid: 73be2f0ca9c070c4e97bddfad13c49bf,
         type: 3}
       propertyPath: m_Layer
