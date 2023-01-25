@@ -8,10 +8,10 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Glass PBR Refractive Scene Color based
-  m_Shader: {fileID: -6465566751694194690, guid: 73e5f39bca7959942903cf034753a1a5,
+  m_Shader: {fileID: -6465566751694194690, guid: 0dc8041dc6436cb46b9050a23d05f568,
     type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
+  m_Parent: {fileID: 2100000, guid: 1b46d1a9ecbf82b4a937e700a32b1677, type: 2}
+  m_ModifiedSerializedProperties: 2
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 2
@@ -23,44 +23,10 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - _Base_Color:
-        m_Texture: {fileID: 2800000, guid: df0f2cd6f47446549b59f6dbf61a4f0e, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Colorization:
-        m_Texture: {fileID: 2800000, guid: df0f2cd6f47446549b59f6dbf61a4f0e, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Metalness:
-        m_Texture: {fileID: 2800000, guid: e5a180693d551724197a89dd24d00c05, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Nomal_Map:
-        m_Texture: {fileID: 2800000, guid: 70f9db560448c6648a442c02505c15a1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Transparency_Mask:
-        m_Texture: {fileID: 2800000, guid: abd5505db1dcb4b4e91749373ae94522, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+    m_TexEnvs: []
     m_Ints: []
     m_Floats:
     - _IOR: -0.855
-    - _QueueControl: 0
-    - _QueueOffset: 0
     - _Refraction_Roughness: 0
     m_Colors: []
   m_BuildTextureStacks: []
